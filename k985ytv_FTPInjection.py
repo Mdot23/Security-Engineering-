@@ -10,7 +10,7 @@ def annonLogin(hostname):
         return True 
     except Exception, e:
         print('\n ' + str(hostname) +\
-            ' FTP Anonymous Logon Failed.'
+            'FTP Anonymous Logon Failed.')
         return false 
     host = '192.168.95.179'
     annonLogin(host)
