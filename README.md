@@ -18,6 +18,7 @@ Set up FTP on RedHat
 2. systemctl enable vsftpd 
 
 Set up Firewall
+
 3. firewall-cmd --permanent --add-service=ftp
 4. firewall-cmd --reload 
 
