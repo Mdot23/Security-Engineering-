@@ -24,6 +24,7 @@ Set up Firewall
 
 Set up anonymous access for this to work 
 // Configuration file for vsftpd
+
 5. vim /etc/vsftpd/vsftpd.conf
 6. Change anonymous_enable=NO to anonymous_enable=YES
 
