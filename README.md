@@ -3,7 +3,7 @@ Code to solve Pentesting/Ethical Hacking solutions and defend against them
 
 
 
-# Test buffer Overflow 
+# Buffer Overflow 
 (buffer_overflow.c)
 Buffer Overflow 
 
