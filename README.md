@@ -23,6 +23,7 @@ Set up Firewall
 4. firewall-cmd --reload 
 
 Set up anonymous access for this to work 
+
 // Configuration file for vsftpd
 
 5. vim /etc/vsftpd/vsftpd.conf
