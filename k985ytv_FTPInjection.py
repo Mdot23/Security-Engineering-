@@ -8,10 +8,10 @@ def annonLogin(hostname):
             ' FTP Anonymous Logon Succeeded.')
         ftp.quit()
         return True 
-    except Exception, e:
+    except Exception:
         print('\n ' + str(hostname) +\
-            'FTP Anonymous Logon Failed.')
-        return false 
+            '\nFTP Anonymous Logon Failed.')
+        return False 
     host = '192.168.95.179'
     annonLogin(host)
 
